@@ -1,0 +1,44 @@
+/**
+ * C.line (c)
+ * Celine AUZIAS 2004-20xx
+ * celine DOT auzias AT gmail DOT com */
+
+body{
+    margin:0;
+    padding:0;
+    font:12px/17px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image:url(img/whitey.png);
+    background-color:#e0e0e0;
+    background-repeat:repeat;
+    background-position:0 0;
+    background-attachment:fixed;
+    text-align:center;
+}
+
+
+p { text-align:justify; }
+
+h1{
+	font-family:"Yanone Kaffeesatz", Trebuchet, Arial, sans-serif;
+    font-size:2em;
+    margin:1em auto 1.7em auto;
+    text-shadow: #555 1px 1px 3px;
+    color:#1a4769;
+    font-weight:normal;
+}
+
+a, a:link, a:visited, a:active {
+	text-decoration:none;
+    color:#1a4769;
+}
+a:hover {
+	color:#505050; 
+	text-decoration:underline;
+}
+
+#contact{
+	font-size:1.5em;
+	font-family:"Yanone Kaffeesatz", Trebuchet, Arial, sans-serif;
+	margin-top:2em;
+}
+
