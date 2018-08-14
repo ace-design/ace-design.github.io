@@ -10,9 +10,9 @@ title: Teaching
   - Micro-services & Integration (2018)
   - Introduction to Software Architecture (2018, 2017, 2016, 2015)
   - Innovation Project (2018, 2017, 2016, 2015)
+
   - Business Process Modeling (2017, 2016, 2015, 2014)
   - Domain Specific Languages (2017, 2016, 2015, 2014)
-
   - Agile Project (2017, 2016, 2015, 2014)
   - Application Servers (2014, 2013)
   - SOA, ESB & Integration (2017, 2016, 2015)
