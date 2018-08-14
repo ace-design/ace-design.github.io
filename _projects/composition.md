@@ -1,5 +1,5 @@
 ---
-title: Scalable  Composition
+title: Scalable Software Composition
 
 description: |
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit blandit
