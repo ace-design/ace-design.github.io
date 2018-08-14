@@ -34,14 +34,14 @@ gunther:
 florian_lehmann:
     display_name: "Florian Lehmann"
     bio: MSc Student, UCA
-    image: /img/people/doe.png
+    image: /img/people/florian_l.jpg
     role: grad
 
 florian_bourniquel:
     display_name: "Florian Bourniquel"
     role: grad
     bio: MSc Student, UCA / UQAM
-    image: /img/people/doe.png
+    image: /img/people/florian_b.jpg
 
 # Collaborators
 
@@ -50,17 +50,20 @@ mireille:
     role: collab
     bio: Professor, UCA
     webpage: "http://mireilleblayfornarino.i3s.unice.fr/"
+    image: /img/people/mireille.jpg
 
 philou:
     display_name: "Philippe Collet"
     role: collab
     bio: Professor, UCA
     webpage: "http://www.i3s.unice.fr/Philippe_Collet/node/1"
+    image: /img/people/philou.jpg
 
 sami:
     display_name: "Sami Lazreg"
     role: collab
     bio: PhD Student, UCA
+    image: /img/people/sami.jpg
 
 naouel:
     display_name: "Naouel Moha"

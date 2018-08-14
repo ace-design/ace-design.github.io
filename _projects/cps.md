@@ -8,8 +8,9 @@ description: |
 
 people:
   - seb
-  - cyril
+  - mireille
   - sebseb
+  - philou
 
 layout: project
 last-updated: 2018-06-12

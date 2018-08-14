@@ -1,7 +1,7 @@
 ---
 layout: post
 shortnews: true
-icon: comment
+icon: microphone
 ---
 
 The group has now a new website, hosted on GitHub Pages!
