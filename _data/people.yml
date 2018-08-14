@@ -1,0 +1,150 @@
+
+# Faculty
+
+seb:
+    display_name: "Sébastien Mosser"
+    github: mosser
+    bio: Associate Professor, UCA
+    image: /img/people/seb.png
+    webpage: "http://mosser.github.io"
+    role: faculty
+
+# PhD Students
+
+ben:
+    display_name: "Benjamin Benni"
+    bio: PhD Student, UCA
+    image: /img/people/ben.jpg
+    role: grad
+
+sebseb:
+    display_name: "Sébastien Bonnieux"
+    bio: PhD Student, UCA
+    image: /img/people/sebseb.png
+    role: grad
+
+# MSc Students
+
+gunther:
+    display_name: "Gunther Jungbluth"
+    bio: MSc Student, UCA/CNRS
+    image: /img/people/gunther.jpg
+    role: grad
+
+florian_lehmann:
+    display_name: "Florian Lehmann"
+    bio: MSc Student, UCA
+    image: /img/people/doe.png
+    role: grad
+
+florian_bourniquel:
+    display_name: "Florian Bourniquel"
+    role: grad
+    bio: MSc Student, UCA / UQAM
+    image: /img/people/doe.png
+
+# Collaborators
+
+mireille:
+    display_name: "Mireille Blay-Fornarino"
+    role: collab
+    bio: Professor, UCA
+    webpage: "http://mireilleblayfornarino.i3s.unice.fr/"
+
+philou:
+    display_name: "Philippe Collet"
+    role: collab
+    bio: Professor, UCA
+    webpage: "http://www.i3s.unice.fr/Philippe_Collet/node/1"
+
+sami:
+    display_name: "Sami Lazreg"
+    role: collab
+    bio: PhD Student, UCA
+
+naouel:
+    display_name: "Naouel Moha"
+    role: collab
+    bio: Professor, UQAM
+
+joerg:
+    display_name: "Jörg Kienzle"
+    role: collab
+    bio: Professor, McGill University
+
+gunther_mussbacher:
+    display_name: "Gunter Mussbacher"
+    role: collab
+    bio: Ass. Professor, McGill University
+
+laure:
+    display_name: "Laure Gonnord"
+    role: collab
+    bio: Ass. Professor, Université Lyon 1 & LIP
+
+# Undergrad / Interns
+
+
+
+alexis_couvreur:
+    display_name: "Alexis Couvreur"
+    role: ugrad
+    bio: "Summer 2018, UCA"
+
+johan_mortara:
+    display_name: "Johan Mortara"
+    role: ugrad
+    bio: "Summer 2018, UCA"
+
+olivier_boulet :
+    display_name: "Olivier Boulet"
+    role: ugrad
+    bio: "Summer 2018, UCA"
+
+# Alumni Grad
+
+## PhD
+ivan:
+    display_name: "Ivan Logre"
+    bio: MSc, 2013. PhD, 2017. Now postdoc at Université Grenoble Alpes
+    role: alum
+
+cyril:
+    display_name: "Cyril Cecchinel"
+    bio: MSc, 2014, PhD, 2017. Now research engineer at DataThings
+    role: alum
+
+alex:
+    display_name: "Alexandre Feugas"
+    bio: PhD, 2014. Now senior R&D consultant at F. Incivitas
+    role: alum
+
+## MSc
+
+eirik:
+    display_name: "Eirik Brandtzæg"
+    bio: MSc, 2011. Now software engineer.
+    role: alum
+
+
+# Alumni Undergrad
+
+fabien_vicente:
+    display_name: "Fabien Vicente"
+    bio: "Summer 2016. Now Software Engineer, Meritis."
+    role: ugrad-alum
+
+nicolas_lecourtois:
+    display_name: "Nicolas Lecourtois"
+    bio: "Summer 2016. Now Software Engineer, Atos."
+    role: ugrad-alum
+
+iokanaan_goutier:
+    display_name: "Iokannan Goutier"
+    bio: "Summer 2016. Now Independent Software Engineer."
+    role: ugrad-alum
+
+jean_oudot:
+    display_name: "Jean Oudot"
+    bio: "Summer 2014. Now PhD Student at Telecom ParisTech."
+    role: ugrad-alum

@@ -1,33 +1,76 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<!-- saved from url=(0021)http://ace-design.eu/ -->
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+---
+layout: default
+title: Home
+notitle: true
 
+# groups of columns of {roles: list, width: num, image: bool}
+role-tables:
+- - roles: [faculty, postdoc, staff]
+    width: 4
+    image: true
+  - roles: [grad]
+    width: 8
+    image: true
+- - roles: [collab]
+    width: 6
+    image: false
+  - roles: [ugrad]
+    width: 6
+    image: false
+  - roles: [alum, ugrad-alum]
+    width: 12
+    image: false
+---
 
-
-<link rel="stylesheet" type="text/css" href="./ace_files/style.css">
-<link rel="stylesheet" type="text/css" href="./ace_files/css">
-
-<link rel="shortcut icon" href="http://ace-design.eu/img/favicon.ico">
-
-<title>ACE - Abstract Composition Engine - Sebastien Mosser</title>
-
-<meta name="Description" content="ACE - Abstract Composition Engine - Sebastien Mosser">
-<meta name="keywords" content="ACE, Abstract, Composition, Engine, Sebastien, Mosser">
-
-</head>
-
-<body>
-
-<img src="./ace_files/ace-logo.png" alt="ACE">
-<h1>Abstract Composition Engine</h1>
-
-<img src="./ace_files/coming-soon.png" alt="Coming soon">
-
-<div id="contact">
-	<span>Sébastien Mosser</span> : <a href="http://sebastien-mosser.fr/">http://sebastien-mosser.fr</a>
+<div class="jumbotron">
+    <p>
+        The <b>ACE</b> research group is a part of the SPARKS team (<b>Université Côte d'Azur</b> & <b>I3S/CNRS</b>), focused on Software Engineering and Software Composition.
+    </p>
 </div>
 
+<section>
+    <h2>News</h2>
+    <ul class="news list-unstyled">
+        {% for post in site.posts limit: site.front_page_news %}
+            {% include news-item.html item=post %}
+        {% endfor %}
+    </ul>
+    {% assign numposts = site.posts | size %}
+    {% if numposts >= 1 %}
+        <p>
+            <span class="fa fa-fw fa-history"></span>
+            <a href="{{ site.base }}/blog.html">Older posts&hellip;</a>
+        </p>
+    {% endif %}
+</section>
 
+<section>
+    <h2>Research</h2>
+    <div class="card-columns">
+        {% comment %}
+        Sort the projects by date, putting those without dates last
+        {% endcomment %}
+        {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
+        {% assign projects_by_date = projects_by_date | reverse %}
+        {% for p in projects_by_date %}
+            {% if p.status != "inactive" %}
+                {% include project-card.html project=p %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</section>
 
-
-</body></html>
+<div id="people">
+    <h2>People</h2>
+    {% for role-table in page.role-tables %}
+        <section class="people row justify-content-between">
+            {% for role-column in role-table %}
+                <div class="col-md-{{ role-column.width }}">
+                    {% for role in role-column.roles %}
+                        {% include role-people.html role=role image=role-column.image %}
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        </section>
+    {% endfor %}
+</div>
