@@ -3,7 +3,7 @@
 
 all: build
 
-BIBBLE = bibble
+BIBBLE = docker run -v "${PWD}":/data -i petitroll/bibble
 
 _includes/pubs.html: bib/pubs.bib bib/publications.tmpl
 	mkdir -p _includes
