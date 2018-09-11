@@ -37,12 +37,6 @@ florian_lehmann:
     image: /img/people/florian_l.jpg
     role: grad
 
-florian_bourniquel:
-    display_name: "Florian Bourniquel"
-    role: grad
-    bio: MSc Student, UCA / UQAM
-    image: /img/people/florian_b.jpg
-
 # Collaborators
 
 mireille:
@@ -87,23 +81,6 @@ laure:
 
 # Undergrad / Interns
 
-
-
-alexis_couvreur:
-    display_name: "Alexis Couvreur"
-    role: ugrad
-    bio: "Summer 2018, UCA"
-
-johan_mortara:
-    display_name: "Johan Mortara"
-    role: ugrad
-    bio: "Summer 2018, UCA"
-
-olivier_boulet :
-    display_name: "Olivier Boulet"
-    role: ugrad
-    bio: "Summer 2018, UCA"
-
 # Alumni Grad
 
 ## PhD
@@ -131,6 +108,27 @@ eirik:
 
 
 # Alumni Undergrad
+
+alexis_couvreur:
+    display_name: "Alexis Couvreur"
+    role: ugrad-alum
+    bio: "Summer 2018, UCA. Now Graduate student at UCA."
+
+johan_mortara:
+    display_name: "Johan Mortara"
+    role: ugrad-alum
+    bio: "Summer 2018, UCA. Now Graduate student at UCA."
+
+olivier_boulet :
+    display_name: "Olivier Boulet"
+    role: ugrad-alum
+    bio: "Summer 2018, UCA. Now Graduate student at UCA."
+
+florian_bourniquel:
+    display_name: "Florian Bourniquel"
+    role: ugrad-alum
+    bio: Summer 2018, MSc Student, UCA / UQAM
+    image: /img/people/florian_b.jpg
 
 fabien_vicente:
     display_name: "Fabien Vicente"
