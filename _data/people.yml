@@ -6,7 +6,7 @@ seb:
     github: mosser
     bio: Associate Professor, UCA
     image: /img/people/seb.png
-    webpage: "http://mosser.github.io"
+    webpage: "http://www.i3s.unice.fr/~mosser"
     role: faculty
 
 # PhD Students
@@ -25,17 +25,6 @@ sebseb:
 
 # MSc Students
 
-gunther:
-    display_name: "Gunther Jungbluth"
-    bio: MSc Student, UCA/CNRS
-    image: /img/people/gunther.jpg
-    role: grad
-
-florian_lehmann:
-    display_name: "Florian Lehmann"
-    bio: MSc Student, UCA
-    image: /img/people/florian_l.jpg
-    role: grad
 
 # Collaborators
 
@@ -81,6 +70,55 @@ laure:
 
 # Undergrad / Interns
 
+
+florian_lehmann:
+    display_name: "Florian Lehmann"
+    bio: MSc Student, UCA
+    image: /img/people/florian_l.jpg
+    role: ugrad
+
+florian_bourniquel:
+    display_name: "Florian Bourniquel"
+    role: ugrad
+    bio: MSc Student, UCA 
+    image: /img/people/florian_b.jpg
+
+marc_jourdes:
+    display_name: "Marc Jourdes"
+    role: ugrad
+    bio: MSc Student, UCA 
+
+tanguy:
+    display_name: "Tanguy Invernizzi"
+    role: ugrad
+    bio: MSc Student, UCA     
+
+guillaume_andre:
+    display_name: "Guillaume André"
+    role: ugrad
+    bio: MSc Student, UCA 
+
+lucas_matteo:
+    display_name: "Lucas Mattéo"
+    role: ugrad
+    bio: MSc Student, UCA 
+
+jean_adam:
+    display_name: "Jean-Adam Puskaric"
+    role: ugrad
+    bio: MSc Student, UCA 
+
+enzo:
+    display_name: "Enzo Dalla-Nora"
+    role: ugrad
+    bio: MSc Student, UCA 
+
+david_sene:
+    display_name: " David Sene"
+    role: ugrad
+    bio: MSc Student, UCA 
+
+
 # Alumni Grad
 
 ## PhD
@@ -106,6 +144,11 @@ eirik:
     bio: MSc, 2011. Now software engineer.
     role: alum
 
+gunther:
+    display_name: "Gunther Jungbluth"
+    bio: MSc 2018, now lead architect at Games Lab
+    image: /img/people/gunther.jpg
+    role: alum
 
 # Alumni Undergrad
 
@@ -124,11 +167,6 @@ olivier_boulet :
     role: ugrad-alum
     bio: "Summer 2018, UCA. Now Graduate student at UCA."
 
-florian_bourniquel:
-    display_name: "Florian Bourniquel"
-    role: ugrad-alum
-    bio: Summer 2018, MSc Student, UCA / UQAM
-    image: /img/people/florian_b.jpg
 
 fabien_vicente:
     display_name: "Fabien Vicente"

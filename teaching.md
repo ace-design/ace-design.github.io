@@ -8,11 +8,11 @@ title: Teaching
 ### Université du Québec à Montréal (UQAM, 2019-...)
 
 
-#### Undergraduate courses (Baccalauréat)
+  - <span class="badge badge-pill badge-primary">Baccalauréat</span> INF-5153: Génie Logiciel: conception (FR) 
+    - Sessions: [H19](https://github.com/ace-lectures/H19-INF-5153)
 
-  - INF-5153: Génie Logiciel: conception (FR) 
-    - Sessions: [H19](https://github.com/ace-lectures/H19-INF-5153) 
 
+<p> </p>
 
 ### Invited Lectures
 
@@ -21,9 +21,12 @@ title: Teaching
 
 
 <p> </p>
+<p> </p>
 
 ### Université Côte d'Azur (2012-2018)
 
+<p> </p>
+<p> </p>
 <p> </p>
 
 #### Undergraduate courses (3A)
