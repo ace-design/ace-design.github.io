@@ -36,24 +36,15 @@ a > .fa {
     display: inline;
 }
 
-/* /\* Customize container *\/ */
-/* @media (min-width: 768px) { */
-/*     .container { */
-/*         max-width: 730px; */
-/*     } */
-/* } */
-
 /* Jumbotron */
 .jumbotron {
-    text-align: justify;
     padding-top: 1.5em;
-    padding-bottom: 0.5em;
-    font-size: 110%
+    padding-bottom: 1.5em;
 }
 
 /* Group logo */
 #logo {
-    width: 154px;
+    width: 102px;
     height: 35px;
     margin: 2px 0 8px 0;
 }

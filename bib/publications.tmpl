@@ -1,16 +1,32 @@
 <table class="table">
+{% set ns = namespace(found=false) %}
 <tbody>
-	{%- set prev_year = 1900 %}
-	{%- for entry in entries %}
+	{% set ns.previous = 1900 %}
+	{% for entry in entries %}
 	<tr>
-		<td>
+		<td class="text-center">
 			<span class="date">
-				{% if entry.fields['year'] != prev_year %}
+				{% set ns.display = entry.fields['year'] != ns.previous %}
+				{% if ns.display %}
 				<big><strong>{{ entry.fields['year'] }}</strong></big><br />
 				{% endif %}
-				{%- set prev_year = entry.fields['year'] %}
-				{{ entry.fields['month']|monthname }}
-			</span>
+				{% set ns.previous = entry.fields['year'] %}
+				<em>{{ entry.fields['month'] }}</em><br />
+			{%- if entry.fields['type'] == "C" %}
+			<span class="badge badge-pill badge-primary">Conference</span>
+			{%- elif entry.fields['type'] == "J" %}
+			<span class="badge badge-pill badge-warning">Journal</span>
+			{%- elif entry.fields['type'] == "W" %}
+			<span class="badge badge-pill badge-secondary">Workshop</span>
+			{%- elif entry.fields['type'] == "P" %}
+			<span class="badge badge-pill badge-info">Poster</span>
+			{%- elif entry.fields['type'] == "T" %}
+			<span class="badge badge-pill badge-dark">Tutorial</span>
+			{%- endif %}
+			{% if entry.fields['award'] == "true" %}<br />
+				<i class="fas fa-award"></i>
+			{% endif %}
+		</span>
 		</td>
 		<td class="publication">
 			<span class="pubtitle">
@@ -18,34 +34,18 @@
 				{%- if url %}
 				<img src="img/pdf-icon.png" width="16"
 					height="16" alt="PDF" />
-				<a href="{{ url|escape }}">{{ entry|title }}</a>.
+				<a target="_blank" href="{{ url|escape }}"><strong>{{ entry|title }}</strong></a>.
 				{%- else %}
-				{{ entry|title }}.
+				<strong>{{ entry|title }}</strong>.
 				{%- endif %}
 			</span><br />
 			<span class="authors">
 				{{ entry.persons['author']|author_list }}.
 			</span><br />
-			<span class="venuetype">{{ entry|venue_type -}}</span><span class="venue">{{ entry|venue -}}</span>.
-			{%- if entry.fields['note'] %}
-			<span class="note">
-			{{ entry.fields['note']|escape }}.
-			</span>
-			{%- endif %}
-			<br />
-			<span class="links">
-			{%- for type, url in (entry|extra_urls).items() %}
-				[<a href="{{ url|escape }}">{{ type|escape }}</a>]
-			{%- endfor %}
-				{%- if entry.fields['abstract'] %}
-				[<a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);" onclick="$('#abstract_{{entry.fields['key']}}').slideToggle('fast');return false;">abstract</a>]
-				{%- endif %}
-			</span>
-			{%- if entry.fields['abstract'] %}
-			<div id="abstract_{{entry.fields['key']}}" class="abstract">
-			{{ entry.fields['abstract'] |escape }}
-			</div>
-			{%- endif %}
+			<em><span class="venuetype">{{ entry|venue_type -}}</span><span class="venue">{{ entry|venue -}}</span></em>.
+			{% if entry.fields['award'] == "true" %}
+				(<i class="fas fa-award"></i> <em><strong>Best Paper Award</strong></em>)
+			{% endif %}
 		</td>
 	</tr>
 	{%- endfor %}
