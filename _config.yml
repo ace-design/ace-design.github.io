@@ -36,6 +36,8 @@ base: ''
 collections:
   projects:
     output: true
+  offers:
+    output: true
 
 # Navigation bar links.
 navigation:
@@ -51,3 +53,5 @@ navigation:
     link: /publications.html
   - title: Tools
     link: /tools.html
+  - title: "Join Us!"
+    link: /offers.html

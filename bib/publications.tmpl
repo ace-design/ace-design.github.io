@@ -22,6 +22,8 @@
 			<span class="badge badge-pill badge-info">Poster</span>
 			{%- elif entry.fields['type'] == "T" %}
 			<span class="badge badge-pill badge-dark">Tutorial</span>
+			{%- elif entry.fields['type'] == "Thesis" %}
+			<span class="badge badge-pill badge-success">Thesis</span>
 			{%- endif %}
 			{% if entry.fields['award'] == "true" %}<br />
 				<i class="fas fa-award"></i>
@@ -40,6 +42,9 @@
 				{%- endif %}
 			</span><br />
 			<span class="authors">
+				{% if entry.fields['type'] == "Thesis" %}
+					<i class="fas fa-graduation-cap"></i>
+				{% endif %}
 				{{ entry.persons['author']|author_list }}.
 			</span><br />
 			<em><span class="venuetype">{{ entry|venue_type -}}</span><span class="venue">{{ entry|venue -}}</span></em>.

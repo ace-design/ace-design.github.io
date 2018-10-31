@@ -1,0 +1,34 @@
+---
+layout: default
+title: Join Us!
+---
+
+<br />
+
+<table class="table">
+	<tbody>
+
+{% assign offers_by_date = site.offers | sort: 'last-updated', 'first' %}
+{% assign offers = offers_by_date | reverse %}
+{% for o in offers %}
+		<tr>
+		<td class="text-center">
+				<span class="badge badge-pill badge-info">{{ o.level }}</span>
+			</td>
+			<td class="publication">
+				<span class="pubtitle">
+					<a href="{{ o.url }}"><strong>{{o.title}}</strong></a>.
+				</span><br />
+				<span class="authors">
+					{% assign my_array = "" | split: ", " %}
+					{% for s in o.people %}
+						  {% assign my_array = my_array | push: site.data.people[s].display_name %}
+					{% endfor %}
+					<i> Supervision: {{ my_array | array_to_sentence_string }} </i>
+				</span><br />
+			</td>
+		</tr>
+{% endfor %}
+
+</tbody>
+</table>

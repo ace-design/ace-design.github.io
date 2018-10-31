@@ -18,7 +18,7 @@ SERVE_HOST ?= 127.0.0.1
 SERVE_PORT ?= 5000
 
 serve: _includes/pubs.html
-	jekyll serve --port $(SERVE_PORT) --host $(SERVE_HOST)
+	jekyll serve --port $(SERVE_PORT) --host $(SERVE_HOST)  --incremental
 
 clean:
 	$(RM) -r _site _includes/pubs.html

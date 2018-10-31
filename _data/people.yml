@@ -42,34 +42,70 @@ philou:
     webpage: "http://www.i3s.unice.fr/Philippe_Collet/node/1"
     image: /img/people/philou.jpg
 
+laure:
+    display_name: "Laure Gonnord"
+    role: collab
+    webpage: "https://laure.gonnord.org/pro/"
+    bio: Ass. Professor, Université Lyon 1, LIP & Inria
+
+joerg:
+    display_name: "Jörg Kienzle"
+    role: collab
+    webpage: "https://www.cs.mcgill.ca/~joerg/Home/Jorgs_Home.html"
+    bio: Professor, McGill University
+
 sami:
     display_name: "Sami Lazreg"
     role: collab
     bio: PhD Student, UCA
     image: /img/people/sami.jpg
 
+
 naouel:
     display_name: "Naouel Moha"
     role: collab
     bio: Professor, UQAM
 
-joerg:
-    display_name: "Jörg Kienzle"
+matthieu:
+    display_name: "Matthieu Moy"
     role: collab
-    bio: Professor, McGill University
+    webpage: "https://matthieu-moy.fr/spip/?lang=en"
+    bio: Ass. Professor, Université Lyon 1, LIP & Inria
 
 gunther_mussbacher:
     display_name: "Gunter Mussbacher"
     role: collab
+    webpage: "http://www.ece.mcgill.ca/~gmussb1/"
     bio: Ass. Professor, McGill University
 
-laure:
-    display_name: "Laure Gonnord"
-    role: collab
-    bio: Ass. Professor, Université Lyon 1 & LIP
 
 # Undergrad / Interns
 
+guillaume_andre:
+    display_name: "Guillaume André"
+    role: ugrad
+    bio: MSc Student, UCA
+
+florian_bourniquel:
+    display_name: "Florian Bourniquel"
+    role: ugrad
+    bio: MSc Student, UCA
+    image: /img/people/florian_b.jpg
+
+enzo:
+    display_name: "Enzo Dalla-Nora"
+    role: ugrad
+    bio: MSc Student, UCA
+
+tanguy:
+    display_name: "Tanguy Invernizzi"
+    role: ugrad
+    bio: MSc Student, UCA
+
+marc_jourdes:
+    display_name: "Marc Jourdes"
+    role: ugrad
+    bio: MSc Student, UCA
 
 florian_lehmann:
     display_name: "Florian Lehmann"
@@ -77,80 +113,61 @@ florian_lehmann:
     image: /img/people/florian_l.jpg
     role: ugrad
 
-florian_bourniquel:
-    display_name: "Florian Bourniquel"
-    role: ugrad
-    bio: MSc Student, UCA 
-    image: /img/people/florian_b.jpg
-
-marc_jourdes:
-    display_name: "Marc Jourdes"
-    role: ugrad
-    bio: MSc Student, UCA 
-
-tanguy:
-    display_name: "Tanguy Invernizzi"
-    role: ugrad
-    bio: MSc Student, UCA     
-
-guillaume_andre:
-    display_name: "Guillaume André"
-    role: ugrad
-    bio: MSc Student, UCA 
-
 lucas_matteo:
     display_name: "Lucas Mattéo"
     role: ugrad
-    bio: MSc Student, UCA 
+    bio: MSc Student, UCA
 
 jean_adam:
     display_name: "Jean-Adam Puskaric"
     role: ugrad
-    bio: MSc Student, UCA 
-
-enzo:
-    display_name: "Enzo Dalla-Nora"
-    role: ugrad
-    bio: MSc Student, UCA 
+    bio: MSc Student, UCA
 
 david_sene:
     display_name: " David Sene"
     role: ugrad
-    bio: MSc Student, UCA 
+    bio: MSc Student, UCA
 
 
 # Alumni Grad
 
-## PhD
-ivan:
-    display_name: "Ivan Logre"
-    bio: MSc, 2013. PhD, 2017. Now postdoc at Université Grenoble Alpes
-    role: alum
-
-cyril:
-    display_name: "Cyril Cecchinel"
-    bio: MSc, 2014, PhD, 2017. Now research engineer at DataThings
-    role: alum
-
-alex:
-    display_name: "Alexandre Feugas"
-    bio: PhD, 2014. Now senior R&D consultant at F. Incivitas
-    role: alum
-
-## MSc
-
-eirik:
-    display_name: "Eirik Brandtzæg"
-    bio: MSc, 2011. Now software engineer.
-    role: alum
-
 gunther:
+    year: 2018
     display_name: "Gunther Jungbluth"
     bio: MSc 2018, now lead architect at Games Lab
     image: /img/people/gunther.jpg
     role: alum
 
+ivan:
+    year: 2017
+    display_name: "Ivan Logre"
+    bio: PhD, 2017. MSc, 2013. Now postdoc at Université Grenoble Alpes
+    role: alum
+
+cyril:
+    year: 2017
+    display_name: "Cyril Cecchinel"
+    bio: PhD, 2017. MSc, 2014. Now research engineer at DataThings
+    role: alum
+
+alex:
+    year: 2014
+    display_name: "Alexandre Feugas"
+    bio: PhD, 2014. Now senior R&D consultant at F. Incivitas
+    role: alum
+
+eirik:
+    year: 2011
+    display_name: "Eirik Brandtzæg"
+    bio: MSc, 2011. Now software engineer.
+    role: alum
+
 # Alumni Undergrad
+
+olivier_boulet :
+    display_name: "Olivier Boulet"
+    role: ugrad-alum
+    bio: "Summer 2018, UCA. Now Graduate student at UCA."
 
 alexis_couvreur:
     display_name: "Alexis Couvreur"
@@ -161,12 +178,6 @@ johan_mortara:
     display_name: "Johan Mortara"
     role: ugrad-alum
     bio: "Summer 2018, UCA. Now Graduate student at UCA."
-
-olivier_boulet :
-    display_name: "Olivier Boulet"
-    role: ugrad-alum
-    bio: "Summer 2018, UCA. Now Graduate student at UCA."
-
 
 fabien_vicente:
     display_name: "Fabien Vicente"
