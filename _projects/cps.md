@@ -2,45 +2,34 @@
 title: Cyber-Physical Systems
 
 description: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit blandit
-  varius. Pellentesque habitant morbi tristique senectus et netus et malesuada
-  fames ac turpis egestas.
+  In this domain, we focus our efforts on the definition of model-based composition operators dedicated to data collection policies and large-scale sensor networks.
 
 people:
   - seb
   - mireille
   - sebseb
   - philou
+  - sami
 
 layout: project
 last-updated: 2018-06-12
 ---
 
-Proin massa augue, eleifend non ultricies eget, feugiat ut nisl. Fusce at
-aliquet justo, id elementum lacus. Praesent eleifend tempus molestie. Nunc
-vulputate sed tortor a ultrices. Nullam blandit hendrerit nisi, at suscipit
-augue ultricies quis. Nulla tincidunt rhoncus nisl sed consectetur. Phasellus
-dapibus, leo in varius tempus, nibh velit tincidunt lacus, ut porta eros ex et
-eros. Ut diam purus, sagittis vitae cursus eu, molestie eget turpis. Sed
-consectetur magna in posuere faucibus. Morbi nibh eros, blandit ut vehicula ac,
-pellentesque ut urna.
+In this domain, we focus our efforts on the definition of model-based composition operators dedicated to data collection policies and large-scale sensor networks. These operators allow one to reuse an existing network by deploying unforeseen applications on top of it, instead of building a new one for a single purpose. This is very important in the context of Smart Cities for example.
 
-Maecenas scelerisque ut enim non convallis. Mauris ut nisl vitae mi dictum
-mollis. Pellentesque iaculis lacinia nisl viverra laoreet. Integer ac lacus quis
-elit varius mollis et ultrices tortor. Aliquam id dolor cursus, sagittis arcu
-tincidunt, scelerisque nisi. Morbi scelerisque feugiat mi in faucibus. Maecenas
-suscipit aliquet est et efficitur. Nullam sed purus nec nulla placerat ultrices
-ac at ipsum. Mauris a imperdiet eros.
+For example, during Cyril Cecchinel*’s PhD, we supported the automatic deployment of multiple data collection policies on the same network, sharing resources to support constraints such as minimizing the energy consumption or reducing the consumed bandwidth. We also used machine learning algorithms to predict the required collection frequencies for the involved sensors, considering this data to extend applications’ lifetime: a policy with a weekly scale lifetime was extended to a yearly scale one, thanks to an adaptive model trained on top of the composed policies.
 
-Aenean malesuada tellus nulla, ut ultrices purus dictum et. Nunc non eleifend
-nulla, ut luctus nulla. Nulla et accumsan odio. Fusce libero nisl, rutrum ac
-risus sit amet, interdum feugiat eros. Morbi semper scelerisque magna vel
-malesuada. Curabitur in blandit orci. Cras eu tincidunt odio. Sed consectetur
-nunc purus, id pharetra felis fermentum vitae. Sed rhoncus lacus lacus. Aenean a
-ante et quam viverra pharetra interdum id ligula. Vestibulum lobortis ipsum ac
-risus sagittis, non dapibus metus finibus. Quisque efficitur felis sed felis
-luctus, non egestas ex dapibus. Sed pharetra gravida augue, id posuere nunc
-fringilla eget.
+The group also designed of two experimental platforms related to CPSs and sensor networks: _(i)_ the SENSAPP platform, extended into the _(ii)_ SmartCampus. These two platforms were reused by industrial partners in the context of proof of concepts or more ambitious projects (_e.g._, SENSAPP was used in two European projects related to cloud computing: PaaSage and MODAClouds)
 
+Two PhD students related to CPS are working in the gorup: Sebastien Bonnieux and Sami Lazreg.
 
-Composition d'Applications pour "Mobile Earthquake Recorder in Marine Areas by Independent Divers" (MERMAID)
+  - In Sami’s PhD, we are working with a car manufacturer to compose together _(i)_ models reifying business features (what to display on the dashboard) and _(ii)_ GPU pipelines able to realize such features. Using Feature Transition Systems, we automate the exploration of the design space to tame the variability of such realizations.
+  - Sébastien*’s PhD is a joint collaboration with the Geoscience Institute at Université Côte d’Azur and a company specialized in underwater devices. We explore the design of a domain-specific language allowing geoscientists to express experiment campaigns to be deployed on the devices (_e.g._, whales’ surveillance, earthquakes detection). Composition mechanisms are used to compose multiple apps that needs to be deployed on the same devices, maximizing its estimated lifetime.
+
+### Ongoing projects:
+
+  - Composition d'Applications pour "_Mobile Earthquake Recorder in Marine Areas by Independent Divers_" (MERMAID)
+  - Managing Variability in Automotive Cyber-Physical Systems (2016-2020)
+  - I-Win (2018-2019)
+
+### Key Publications  
