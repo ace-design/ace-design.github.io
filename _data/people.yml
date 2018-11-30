@@ -53,6 +53,7 @@ philou:
 laure:
     display_name: "Laure Gonnord"
     role: collab
+    image: /img/people/laure.jpg
     webpage: "https://laure.gonnord.org/pro/"
     bio: Ass. Professor, Université Lyon 1, LIP & Inria
 
@@ -71,11 +72,13 @@ sami:
 naouel:
     display_name: "Naouel Moha"
     role: collab
+    image: /img/people/naouel.jpg
     bio: Professor, UQAM
 
 matthieu:
     display_name: "Matthieu Moy"
     role: collab
+    image: /img/people/matthieu.png
     webpage: "https://matthieu-moy.fr/spip/?lang=en"
     bio: Ass. Professor, Université Lyon 1, LIP & Inria
 
