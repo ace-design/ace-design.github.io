@@ -26,6 +26,27 @@ sebseb:
 
 # MSc Students
 
+paul:
+    display_name: "Paul Misericordia"
+    bio: MSc Student, UQAM / exia.CESI
+    image: https://www.un-zero-un.fr/media/cache/big_team_member/uploads/team/2018/paul.jpg
+#    webpage: ""
+    role: grad
+
+dorian:
+    display_name: "Dorian Haouz-Gachet"
+    bio: MSc Student, UQAM / exia.CESI
+#    image:
+#    webpage: ""
+    role: grad
+
+juliano:
+  display_name: "Juliano Augusto Pereira"
+  bio: MSc Student, UQAM
+#    image:
+#    webpage: ""
+  role: grad
+
 
 # Collaborators
 
@@ -91,52 +112,7 @@ gunther_mussbacher:
 
 # Undergrad / Interns
 
-guillaume_andre:
-    display_name: "Guillaume André"
-    role: ugrad
-    bio: MSc Student, UCA
 
-florian_bourniquel:
-    display_name: "Florian Bourniquel"
-    role: ugrad
-    bio: MSc Student, UCA
-    image: /img/people/florian_b.jpg
-
-enzo:
-    display_name: "Enzo Dalla-Nora"
-    role: ugrad
-    bio: MSc Student, UCA
-
-tanguy:
-    display_name: "Tanguy Invernizzi"
-    role: ugrad
-    bio: MSc Student, UCA
-
-marc_jourdes:
-    display_name: "Marc Jourdes"
-    role: ugrad
-    bio: MSc Student, UCA
-
-florian_lehmann:
-    display_name: "Florian Lehmann"
-    bio: MSc Student, UCA
-    image: /img/people/florian_l.jpg
-    role: ugrad
-
-lucas_matteo:
-    display_name: "Lucas Mattéo"
-    role: ugrad
-    bio: MSc Student, UCA
-
-jean_adam:
-    display_name: "Jean-Adam Puskaric"
-    role: ugrad
-    bio: MSc Student, UCA
-
-david_sene:
-    display_name: " David Sene"
-    role: ugrad
-    bio: MSc Student, UCA
 
 
 # Alumni Grad
@@ -174,37 +150,83 @@ eirik:
 
 # Alumni Undergrad
 
+guillaume_andre:
+    display_name: "Guillaume André"
+    role: ugrad-alum
+    bio: "Autumn 2018, UCA. Now Graduate student at UCA."
+
 olivier_boulet :
     display_name: "Olivier Boulet"
     role: ugrad-alum
     bio: "Summer 2018, UCA. Now Graduate student at UCA."
+
+florian_bourniquel:
+    display_name: "Florian Bourniquel"
+    role: ugrad-alum
+    bio: "2018, UCA. Now Graduate student at UCA."
+    image: /img/people/florian_b.jpg
 
 alexis_couvreur:
     display_name: "Alexis Couvreur"
     role: ugrad-alum
     bio: "Summer 2018, UCA. Now Graduate student at UCA."
 
-johan_mortara:
-    display_name: "Johann Mortara"
+enzo:
+    display_name: "Enzo Dalla-Nora"
     role: ugrad-alum
-    bio: "Summer 2018, UCA. Now Graduate student at UCA."
-
-fabien_vicente:
-    display_name: "Fabien Vicente"
-    bio: "Summer 2016. Now Software Engineer, Meritis."
-    role: ugrad-alum
-
-nicolas_lecourtois:
-    display_name: "Nicolas Lecourtois"
-    bio: "Summer 2016. Now Software Engineer, Atos."
-    role: ugrad-alum
+    bio: "Autumn 2018, UCA. Now Graduate student at UCA."
 
 iokanaan_goutier:
     display_name: "Iokannan Goutier"
     bio: "Summer 2016. Now Independent Software Engineer."
     role: ugrad-alum
 
+tanguy:
+    display_name: "Tanguy Invernizzi"
+    role: ugrad-alum
+    bio: "Autumn 2018, UCA. Now Graduate student at UCA."
+
+marc_jourdes:
+    display_name: "Marc Jourdes"
+    role: ugrad-alum
+    bio: "Autumn 2018, UCA. Now Graduate student at UCA."
+
+nicolas_lecourtois:
+    display_name: "Nicolas Lecourtois"
+    bio: "Summer 2016. Now Software Engineer, Atos."
+    role: ugrad-alum
+
+florian_lehmann:
+    display_name: "Florian Lehmann"
+    bio: "2018, UCA. Now Graduate student at UCA."
+    role: ugrad-alum
+
+lucas_matteo:
+    display_name: "Lucas Mattéo"
+    role: ugrad-alum
+    bio: "Autumn 2018, UCA. Now Graduate student at UCA."
+
+johan_mortara:
+    display_name: "Johann Mortara"
+    role: ugrad-alum
+    bio: "Summer 2018, UCA. Now Graduate student at UCA."
+
 jean_oudot:
     display_name: "Jean Oudot"
     bio: "Summer 2014. Now PhD Student at Telecom ParisTech."
+    role: ugrad-alum
+
+jean_adam:
+    display_name: "Jean-Adam Puskaric"
+    role: ugrad-alum
+    bio: "Autumn 2018, UCA. Now Graduate student at UCA."
+
+david_sene:
+    display_name: " David Sene"
+    role: ugrad-alum
+    bio: "Autumn 2018, UCA. Now Graduate student at UCA."
+
+fabien_vicente:
+    display_name: "Fabien Vicente"
+    bio: "Summer 2016. Now Software Engineer, Meritis."
     role: ugrad-alum
