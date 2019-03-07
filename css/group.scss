@@ -110,12 +110,16 @@ section {
 
     margin-bottom: 10px;
 
+    h6 {
+    }
+
     .profile {
         height: 70px;
         width: 70px;
     }
 
     .bio {
+        font-style: italic;
         color: $gray;
     }
 
@@ -128,6 +132,7 @@ section {
     margin: 0;
 
     .bio {
+        font-style: italic;
         margin-left: 1em;
     }
 }

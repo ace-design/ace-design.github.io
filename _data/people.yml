@@ -36,7 +36,7 @@ paul:
 dorian:
     display_name: "Dorian Haouz-Gachet"
     bio: MSc Student, UQAM / exia.CESI
-#    image:
+    image: /img/people/dorian_hg.jpg
 #    webpage: ""
     role: grad
 
