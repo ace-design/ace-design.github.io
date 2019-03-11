@@ -43,8 +43,7 @@ dorian:
 juliano:
   display_name: "Juliano Augusto Pereira"
   bio: MSc Student, UQAM
-#    image:
-#    webpage: ""
+  image: /img/people/juliano.jpg
   role: grad
 
 
@@ -112,8 +111,25 @@ gunther_mussbacher:
 
 # Undergrad / Interns
 
+florian_j:
+    display_name: "Florian Juroszek"
+    role: ugrad
+    bio: "Summer 2019 (Polytech'Nice Sophia)"
 
+seb_m:
+    display_name: "Sébastien Michelland"
+    role: ugrad
+    bio: "Spring 2019 (École Normale Supérieure de Lyon)"
 
+mathieu:
+    display_name: "Mathieu Paillard"
+    role: ugrad
+    bio: "Summer 2019 (Polytech'Nice Sophia)"
+
+alexis_s:
+    display_name: "Alexis Segura"
+    role: ugrad
+    bio: "Summer 2019 (Polytech'Nice Sophia)"
 
 # Alumni Grad
 

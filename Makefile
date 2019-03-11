@@ -28,4 +28,6 @@ DEPLOY_PATH ?= www/
 RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete -e ssh
 
 deploy: clean build
-	$(RSYNC) _site/ $(DEPLOY_HOST):$(DEPLOY_PATH)
+	git add -A
+	git commit -m "deploying site contents from Makefile"
+	git push
