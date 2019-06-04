@@ -30,14 +30,12 @@ paul:
     display_name: "Paul Misericordia"
     bio: MSc Student, UQAM / exia.CESI
     image: https://www.un-zero-un.fr/media/cache/big_team_member/uploads/team/2018/paul.jpg
-#    webpage: ""
     role: grad
 
 dorian:
     display_name: "Dorian Haouz-Gachet"
     bio: MSc Student, UQAM / exia.CESI
     image: /img/people/dorian_hg.jpg
-#    webpage: ""
     role: grad
 
 juliano:
@@ -48,6 +46,13 @@ juliano:
 
 
 # Collaborators
+
+houari:
+  display_name: "Houari Sahraoui"
+  role: collab
+  bio: Professor, UdeM
+  webpage: "http://www.iro.umontreal.ca/~sahraouh/"
+  image: "http://www.iro.umontreal.ca/~sahraouh/photo_diro.jpg"
 
 mireille:
     display_name: "Mireille Blay-Fornarino"

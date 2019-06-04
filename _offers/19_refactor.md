@@ -6,6 +6,7 @@ people:
   - ben
 
 level: graduate  
+available: false
 
 layout: offer
 last-updated: 2018-10-31

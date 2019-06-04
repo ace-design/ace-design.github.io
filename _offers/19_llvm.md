@@ -6,7 +6,8 @@ people:
   - laure
   - matthieu
 
-level: graduate  
+level: graduate
+available: no 
 
 layout: offer
 last-updated: 2018-10-31

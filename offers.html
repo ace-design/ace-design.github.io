@@ -11,11 +11,12 @@ title: Join Us!
 
 <br />
 
+<h2>Open positions</h2>
 <table class="table">
 	<tbody>
 
 {% assign offers_by_date = site.offers | sort: 'last-updated', 'first' %}
-{% assign offers = offers_by_date | reverse %}
+{% assign offers = offers_by_date | reverse | where: 'available', 'true' %}
 {% for o in offers %}
 		<tr>
 		<td class="text-center">
@@ -23,7 +24,37 @@ title: Join Us!
 			</td>
 			<td class="publication">
 				<span class="pubtitle">
-					<a href="{{ o.url }}"><strong>{{o.title}}</strong></a>. 
+					<a href="{{ o.url }}"><strong>{{o.title}}</strong></a>.
+				</span><br />
+				<span class="authors">
+					{% assign my_array = "" | split: ", " %}
+					{% for s in o.people %}
+						  {% assign my_array = my_array | push: site.data.people[s].display_name %}
+					{% endfor %}
+					<i> Supervision: {{ my_array | array_to_sentence_string }} </i>
+				</span><br />
+			</td>
+		</tr>
+{% endfor %}
+
+</tbody>
+</table>
+
+<h2>Old offers</h2>
+
+<table class="table" style="color: #999">
+	<tbody>
+
+{% assign offers_by_date = site.offers | sort: 'last-updated', 'first' %}
+{% assign offers = offers_by_date | reverse | where: 'available', 'false' %}
+{% for o in offers %}
+		<tr>
+		<td class="text-center">
+				<span class="badge badge-pill badge-secondary">{{ o.level }}</span>
+			</td>
+			<td class="publication">
+				<span class="pubtitle">
+					<strong>{{o.title}}</strong>.
 				</span><br />
 				<span class="authors">
 					{% assign my_array = "" | split: ", " %}

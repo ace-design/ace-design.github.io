@@ -7,6 +7,7 @@ people:
 
 level: graduate  
 language: FR
+available: no
 
 layout: offer
 last-updated: 2018-11-30
