@@ -5,14 +5,15 @@ people:
   - seb
   - ben
 
-level: graduate  
+level:
+  - MSc
+  - PhD
+
 available: false
 
 layout: offer
 last-updated: 2018-10-31
 ---
-
-This internship proposition will be hosted at _Université du Québec à Montréal_ (UQAM).
 
 ### Summary
 

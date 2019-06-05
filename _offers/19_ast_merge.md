@@ -3,9 +3,11 @@ title: Abstract Syntax Tree Merging in Git
 
 people:
   - seb
+  - ben
 
 level: MSc  
 available: true
+priority: 2
 
 layout: offer
 last-updated: 2019-05-04
@@ -13,11 +15,11 @@ last-updated: 2019-05-04
 
 ### Context
 
-In classical version control systems (e.g., Git), software development can be separated using different _branches_. However, at some point, the source code developed inside a given branch needs to be reconciliated with the one pushed by the other software developers. In a perfect world, this intergreation is easy, as the system will automatically merge together the source code seamlessly.
+In classical version control systems (e.g., Git), software development can be separated using different _branches_. However, at some point, the source code developed inside a given branch needs to be reconciled with the one pushed by the other software developers. In a perfect world, this integration is easy, as the system will automatically merge together the source code seamlessly.
 
-Unfortunately, the world is far from being perfect, and software developers  fear the so-called _merge conflict_. The fact that Git works at the text level is one of the root cause of the total mess such a conflict can create in a project: the tool has no idea of the structrure of the pieces of software to be merged! For example, imagine two developers, _Bob_ and _Alice_. If Alice change the contents if a method `m` in her branch, and Bob move the method `m` to another part of the program, this is considered as a conflict in Git. But it should not be, as considering the semantics of their respective intention, we can automatically reconciliate their editions, and yield an automated merged version of the source code!
+Unfortunately, the world is far from being perfect, and software developers fear the so-called _merge conflict_. The fact that Git works at the text level is one of the root causes of the total mess such a conflict can create in a project: the tool has no idea of the structure of the pieces of software to be merged! For example, imagine two developers, _Bob_ and _Alice_. If Alice changes the contents if a method `m` in her branch, and Bob moves the method `m` to another part of the program, this is considered as a conflict in Git. But it should not be, as considering the semantics of their respective intention, we can automatically reconcile their editions, and yield an automated merged version of the source code!
 
-In this project, we propose to leverage the Git merge algorithm to provide a tool able to merge source code at the abstract tree level. The key point is to identify how to reconciliate classical conflicts (using real world examples extracted from large scale Java projects) in a better way than the text-based algorithm.
+In this project, we propose to leverage the Git merge algorithm to provide a tool able to merge source code at the abstract tree level. The key point is to identify how to reconcile classical conflicts (using real-world examples extracted from large scale Java projects) in a better way than the text-based algorithm.
 
 Join the team, _make git-merge great again_!
 

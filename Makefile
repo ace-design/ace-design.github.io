@@ -21,7 +21,11 @@ serve: _includes/pubs.html
 	jekyll serve --port $(SERVE_PORT) --host $(SERVE_HOST)  --incremental
 
 clean:
-	$(RM) -r _site _includes/pubs.html
+	$(RM) -r _site
+
+clobber: clean
+	$(RM) _includes/pubs.html
+
 
 DEPLOY_HOST ?= yourwebpage.com
 DEPLOY_PATH ?= www/

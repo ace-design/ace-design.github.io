@@ -47,6 +47,13 @@ juliano:
 
 # Collaborators
 
+mjm:
+  display_name: "Marie-Jean Meurs"
+  role: collab
+  bio: Professeure, UQAM
+  webpage: "https://www.labunix.uqam.ca/~meurs_m/"
+  image: "https://photos-professeurs.uqam.ca/images/fiche_professeur/m2/gKZTgyCHAH4_.jpg"
+
 houari:
   display_name: "Houari Sahraoui"
   role: collab

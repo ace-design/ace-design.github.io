@@ -7,6 +7,9 @@ people:
 
 level: PhD  
 available: true
+priority: 1
+
+funding: yes
 
 layout: offer
 last-updated: 2019-05-04
