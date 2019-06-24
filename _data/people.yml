@@ -26,18 +26,6 @@ sebseb:
 
 # MSc Students
 
-paul:
-    display_name: "Paul Misericordia"
-    bio: MSc Student, UQAM / exia.CESI
-    image: https://www.un-zero-un.fr/media/cache/big_team_member/uploads/team/2018/paul.jpg
-    role: grad
-
-dorian:
-    display_name: "Dorian Haouz-Gachet"
-    bio: MSc Student, UQAM / exia.CESI
-    image: /img/people/dorian_hg.jpg
-    role: grad
-
 juliano:
   display_name: "Juliano Augusto Pereira"
   bio: MSc Student, UQAM
@@ -138,6 +126,11 @@ mathieu:
     role: ugrad
     bio: "Summer 2019 (Polytech'Nice Sophia)"
 
+prune:
+    display_name: "Prune Pillone"
+    role: ugrad
+    bio: "Summer 2019 (Polytech'Nice Sophia)"
+
 alexis_s:
     display_name: "Alexis Segura"
     role: ugrad
@@ -177,6 +170,18 @@ eirik:
     role: alum
 
 # Alumni Undergrad
+paul:
+    display_name: "Paul Misericordia"
+    bio: Winter/Spring 2019, now grad student at exia.CESI
+    image: https://www.un-zero-un.fr/media/cache/big_team_member/uploads/team/2018/paul.jpg
+    role: ugrad-alum
+
+dorian:
+    display_name: "Dorian Haouz-Gachet"
+    bio: Winter/Spring 2019, now grad student at exia.CESI
+    image: /img/people/dorian_hg.jpg
+    role: ugrad-alum
+
 
 guillaume_andre:
     display_name: "Guillaume André"
