@@ -35,19 +35,9 @@ juliano:
 
 # Collaborators
 
-mjm:
-  display_name: "Marie-Jean Meurs"
-  role: collab
-  bio: Professeure, UQAM
-  webpage: "https://www.labunix.uqam.ca/~meurs_m/"
-  image: "https://photos-professeurs.uqam.ca/images/fiche_professeur/m2/gKZTgyCHAH4_.jpg"
 
-houari:
-  display_name: "Houari Sahraoui"
-  role: collab
-  bio: Professor, UdeM
-  webpage: "http://www.iro.umontreal.ca/~sahraouh/"
-  image: "http://www.iro.umontreal.ca/~sahraouh/photo_diro.jpg"
+
+
 
 mireille:
     display_name: "Mireille Blay-Fornarino"
@@ -89,6 +79,13 @@ sami:
     bio: PhD Student, UCA
     image: /img/people/sami.jpg
 
+mjm:
+  display_name: "Marie-Jean Meurs"
+  role: collab
+  bio: Professeure, UQAM
+  webpage: "https://www.labunix.uqam.ca/~meurs_m/"
+  image: "https://photos-professeurs.uqam.ca/images/fiche_professeur/m2/gKZTgyCHAH4_.jpg"
+  
 naouel:
     display_name: "Naouel Moha"
     role: collab
@@ -108,33 +105,19 @@ gunther_mussbacher:
     webpage: "http://www.ece.mcgill.ca/~gmussb1/"
     bio: Ass. Professor, McGill University
 
+houari:
+  display_name: "Houari Sahraoui"
+  role: collab
+  bio: Professor, UdeM
+  webpage: "http://www.iro.umontreal.ca/~sahraouh/"
+  image: "http://www.iro.umontreal.ca/~sahraouh/photo_diro.jpg"
 
 # Undergrad / Interns
 
-florian_j:
-    display_name: "Florian Juroszek"
-    role: ugrad
-    bio: "Summer 2019 (Polytech'Nice Sophia)"
-
-seb_m:
-    display_name: "Sébastien Michelland"
-    role: ugrad
-    bio: "Spring 2019 (École Normale Supérieure de Lyon)"
-
-mathieu:
-    display_name: "Mathieu Paillard"
-    role: ugrad
-    bio: "Summer 2019 (Polytech'Nice Sophia)"
-
-prune:
-    display_name: "Prune Pillone"
-    role: ugrad
-    bio: "Summer 2019 (Polytech'Nice Sophia)"
-
-alexis_s:
-    display_name: "Alexis Segura"
-    role: ugrad
-    bio: "Summer 2019 (Polytech'Nice Sophia)"
+gael_m:
+  display_name: "Gaël Miton"
+  role: ugrad
+  bio: Fall 2019 (St Cyr)
 
 # Alumni Grad
 
@@ -170,17 +153,6 @@ eirik:
     role: alum
 
 # Alumni Undergrad
-paul:
-    display_name: "Paul Misericordia"
-    bio: Winter/Spring 2019, now grad student at exia.CESI
-    image: https://www.un-zero-un.fr/media/cache/big_team_member/uploads/team/2018/paul.jpg
-    role: ugrad-alum
-
-dorian:
-    display_name: "Dorian Haouz-Gachet"
-    bio: Winter/Spring 2019, now grad student at exia.CESI
-    image: /img/people/dorian_hg.jpg
-    role: ugrad-alum
 
 
 guillaume_andre:
@@ -214,10 +186,21 @@ iokanaan_goutier:
     bio: "Summer 2016. Now Independent Software Engineer."
     role: ugrad-alum
 
+dorian:
+    display_name: "Dorian Haouz-Gachet"
+    bio: Winter/Spring 2019, now grad student at exia.CESI
+    image: /img/people/dorian_hg.jpg
+    role: ugrad-alum
+
 tanguy:
     display_name: "Tanguy Invernizzi"
     role: ugrad-alum
     bio: "Autumn 2018, UCA. Now Graduate student at UCA."
+
+florian_j:
+    display_name: "Florian Juroszek"
+    role: ugrad-alum
+    bio: "Summer 2019, UCA. Now Graduate student at UCA."
 
 marc_jourdes:
     display_name: "Marc Jourdes"
@@ -239,6 +222,17 @@ lucas_matteo:
     role: ugrad-alum
     bio: "Autumn 2018, UCA. Now Graduate student at UCA."
 
+seb_m:
+    display_name: "Sébastien Michelland"
+    role: ugrad-alum
+    bio: "Spring 2019, ENS Lyon. Now graduate student at ENS Lyon."
+
+paul:
+    display_name: "Paul Misericordia"
+    bio: Winter/Spring 2019, now grad student at exia.CESI
+    image: https://www.un-zero-un.fr/media/cache/big_team_member/uploads/team/2018/paul.jpg
+    role: ugrad-alum
+
 johan_mortara:
     display_name: "Johann Mortara"
     role: ugrad-alum
@@ -249,10 +243,25 @@ jean_oudot:
     bio: "Summer 2014. Now PhD Student at Telecom ParisTech."
     role: ugrad-alum
 
+mathieu:
+    display_name: "Mathieu Paillard"
+    role: ugrad-alum
+    bio: "Summer 2019, UCA. Now Graduate student at UCA."
+
+prune:
+    display_name: "Prune Pillone"
+    role: ugrad-alum
+    bio: "Summer 2019, UCA. Now Graduate student at UCA."
+
 jean_adam:
     display_name: "Jean-Adam Puskaric"
     role: ugrad-alum
     bio: "Autumn 2018, UCA. Now Graduate student at UCA."
+
+alexis_s:
+    display_name: "Alexis Segura"
+    role: ugrad-alum
+    bio: "Summer 2019, UCA. Now Graduate student at UCA."
 
 david_sene:
     display_name: " David Sene"
