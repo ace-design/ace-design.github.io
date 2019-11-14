@@ -32,6 +32,11 @@ juliano:
   image: /img/people/juliano.jpg
   role: grad
 
+jp:
+  display_name: "Jean-Philippe Caissy"
+  bio: MSc Student, UQAM
+  image: /img/people/jp.jpg
+  role: grad
 
 # Collaborators
 
@@ -85,7 +90,7 @@ mjm:
   bio: Professeure, UQAM
   webpage: "https://www.labunix.uqam.ca/~meurs_m/"
   image: "https://photos-professeurs.uqam.ca/images/fiche_professeur/m2/gKZTgyCHAH4_.jpg"
-  
+
 naouel:
     display_name: "Naouel Moha"
     role: collab
