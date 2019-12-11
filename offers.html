@@ -38,7 +38,8 @@ title: Join Us!
 				<span class="authors">
 					{% assign my_array = "" | split: ", " %}
 					{% for s in o.people %}
-						  {% assign my_array = my_array | push: site.data.people[s].display_name %}
+              {% assign dname = site.data.people[s].firstname | append: " " | append: site.data.people[s].lastname %}
+						   {% assign my_array = my_array | push: dname %}
 					{% endfor %}
 					<i> Supervision: {{ my_array | array_to_sentence_string }} </i>
 				</span><br />
@@ -81,7 +82,8 @@ title: Join Us!
 				<span class="authors">
 					{% assign my_array = "" | split: ", " %}
 					{% for s in o.people %}
-						  {% assign my_array = my_array | push: site.data.people[s].display_name %}
+            {% assign dname = site.data.people[s].firstname | append: " " | append: site.data.people[s].lastname %}
+           {% assign my_array = my_array | push: dname %}
 					{% endfor %}
 					<i> Supervision: {{ my_array | array_to_sentence_string }} </i>
 				</span><br />

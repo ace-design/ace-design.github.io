@@ -2,117 +2,163 @@
 # Faculty
 
 seb:
-    display_name: "Sébastien Mosser"
-    github: mosser
-    bio: Professor, UQAM
-    image: /img/people/seb.png
-    webpage: "https://mosser.github.io"
-    role: faculty
+  lastname: "Mosser"
+  firstname: "Sébastien"
+  github: mosser
+  bio: Professor, UQAM
+  image: /img/people/seb.png
+  webpage: "https://mosser.github.io"
+  role: faculty
+
+ben:
+  lastname: "Benni"
+  firstname: "Benjamin"
+  bio: Postdoc, Concordia University
+  image: /img/people/ben.jpg
+  webpage: "http://www.i3s.unice.fr/~benni/"
+  role: postdoc
 
 # PhD Students
 
-ben:
-    display_name: "Benjamin Benni"
-    bio: PhD Student, UCA
-    image: /img/people/ben.jpg
-    webpage: "http://www.i3s.unice.fr/~benni/"
-    role: grad
-
 sebseb:
-    display_name: "Sébastien Bonnieux"
-    bio: PhD Student, UCA
-    image: /img/people/sebseb.png
-    role: grad
+  lastname: "Bonnieux"
+  firstname: "Sébastien"
+  bio: PhD Student, UCA
+  image: /img/people/sebseb.png
+  role: grad
+
+sami:
+  firstname: "Sami"
+  lastname: "Lazreg"
+  role: grad
+  bio: PhD Student, UCA
+  image: /img/people/sami.jpg
 
 # MSc Students
 
 juliano:
-  display_name: "Juliano Augusto Pereira"
-  bio: MSc Student, UQAM
+  firstname: "Juliano Augusto"
+  lastname: "Pereira"
+  bio: MSc.A. Student, UQAM
   image: /img/people/juliano.jpg
   role: grad
 
 jp:
-  display_name: "Jean-Philippe Caissy"
+  firstname: "Jean-Philippe"
+  lastname: "Caissy"
   bio: MSc Student, UQAM
   image: /img/people/jp.jpg
   webpage: "https://www.linkedin.com/in/jpcaissy/"
   role: grad
 
+## Add Exia here
+
+loutheo:
+  firstname: "Lou-Théo"
+  lastname: "Laurent"
+  bio: MSc Student, Exia.CESI / UQAM
+  image: /img/people/laurent.jpg
+  role: grad
+
+rayan:
+  firstname: "Rayan"
+  lastname: "Lakdhar"
+  bio: MSc Student, Exia.CESI / UQAM
+  role: grad
+
+pierre:
+  firstname: "Pierre"
+  lastname: "Froidevaux"
+  bio: MSc Student, Exia.CESI / UQAM
+  image: /img/people/froidevaux.jpeg
+  role: grad
+
+maxime:
+  firstname: "Maxime"
+  lastname: "Mulder"
+  bio: MSc Student, Exia.CESI / UQAM
+  role: grad
+
 # Collaborators
 
-
-
-
-
 mireille:
-    display_name: "Mireille Blay-Fornarino"
-    role: collab
-    bio: Professor, UCA
-    webpage: "http://mireilleblayfornarino.i3s.unice.fr/"
-    image: /img/people/mireille.jpg
+  firstname: "Mireille"
+  lastname: "Blay-Fornarino"
+  role: collab
+  bio: Professor, UCA
+  webpage: "http://mireilleblayfornarino.i3s.unice.fr/"
+  image: /img/people/mireille.jpg
 
 jmb:
-    display_name: "Jean Michel Bruel"
-    role: collab
-    bio: Professor, Univ. Toulouse
-    webpage: "https://jmbruel.github.io/smartjmb/"
-    image: "https://jmbruel.github.io/smartjmb/img/portrait.jpg"
+  firstname: "Jean-Michel"
+  lastname: "Bruel"
+  role: collab
+  bio: Professor, Univ. Toulouse
+  webpage: "https://jmbruel.github.io/smartjmb/"
+  image: "https://jmbruel.github.io/smartjmb/img/portrait.jpg"
 
 philou:
-    display_name: "Philippe Collet"
-    role: collab
-    bio: Professor, UCA
-    webpage: "http://www.i3s.unice.fr/Philippe_Collet/node/1"
-    image: /img/people/philou.jpg
+  lastname: "Collet"
+  firstname: "Philippe"
+  role: collab
+  bio: Professor, UCA
+  webpage: "http://www.i3s.unice.fr/Philippe_Collet/node/1"
+  image: /img/people/philou.jpg
 
 laure:
-    display_name: "Laure Gonnord"
-    role: collab
-    image: /img/people/laure.jpg
-    webpage: "https://laure.gonnord.org/pro/"
-    bio: Ass. Professor, Université Lyon 1, LIP & Inria
+  lastname: "Gonnord"
+  firstname: "Laure"
+  role: collab
+  image: /img/people/laure.jpg
+  webpage: "https://laure.gonnord.org/pro/"
+  bio: Ass. Professor, Université Lyon 1, LIP & Inria
 
 joerg:
-    display_name: "Jörg Kienzle"
-    role: collab
-    webpage: "https://www.cs.mcgill.ca/~joerg/Home/Jorgs_Home.html"
-    bio: Professor, McGill University
-
-sami:
-    display_name: "Sami Lazreg"
-    role: collab
-    bio: PhD Student, UCA
-    image: /img/people/sami.jpg
+  lastname: "Kienzle"
+  firstname: "Jörg"
+  role: collab
+  webpage: "https://www.cs.mcgill.ca/~joerg/Home/Jorgs_Home.html"
+  bio: Professor, McGill University
 
 mjm:
-  display_name: "Marie-Jean Meurs"
+  lastname: "Meurs"
+  firstname: "Marie-Jean"
   role: collab
-  bio: Professeure, UQAM
+  bio: Professor, UQAM
   webpage: "https://www.labunix.uqam.ca/~meurs_m/"
   image: "https://photos-professeurs.uqam.ca/images/fiche_professeur/m2/gKZTgyCHAH4_.jpg"
 
 naouel:
-    display_name: "Naouel Moha"
-    role: collab
-    image: /img/people/naouel.jpg
-    bio: Professor, UQAM
+  lastname: "Moha"
+  firstname: "Naouel"
+  role: collab
+  image: /img/people/naouel.jpg
+  bio: Professor, UQAM
+
+eric:
+  lastname: "Beaudry"
+  firstname: "Eric"
+  role: collab
+  bio: Professor, UQAM
 
 matthieu:
-    display_name: "Matthieu Moy"
-    role: collab
-    image: /img/people/matthieu.png
-    webpage: "https://matthieu-moy.fr/spip/?lang=en"
-    bio: Ass. Professor, Université Lyon 1, LIP & Inria
+  firstname: "Matthieu"
+  lastname: "Moy"
+  role: collab
+  image: /img/people/matthieu.png
+  webpage: "https://matthieu-moy.fr/spip/?lang=en"
+  bio: Ass. Professor, Université Lyon 1, LIP & Inria
 
 gunther_mussbacher:
-    display_name: "Gunter Mussbacher"
-    role: collab
-    webpage: "http://www.ece.mcgill.ca/~gmussb1/"
-    bio: Ass. Professor, McGill University
+  lastname: "Mussbacher"
+  firstname: "Gunter"
+  role: collab
+  webpage: "http://www.ece.mcgill.ca/~gmussb1/"
+  bio: Ass. Professor, McGill University
 
 houari:
-  display_name: "Houari Sahraoui"
+  lastname: "Sahraoui"
+  firstname: "Houari"
   role: collab
   bio: Professor, UdeM
   webpage: "http://www.iro.umontreal.ca/~sahraouh/"
@@ -120,161 +166,215 @@ houari:
 
 # Undergrad / Interns
 
-gael_m:
-  display_name: "Gaël Miton"
-  role: ugrad
-  bio: Fall 2019 (St Cyr)
+
 
 # Alumni Grad
 
 gunther:
-    year: 2018
-    display_name: "Gunther Jungbluth"
-    bio: MSc 2018, now lead architect at Games Lab
-    image: /img/people/gunther.jpg
-    role: alum
+  year: 2018
+  lastname: "Jüngbluth"
+  firstname: "Gunter"
+  bio: MSc 2018, now lead architect at Games Lab
+  image: /img/people/gunther.jpg
+  role: alum
 
 ivan:
-    year: 2017
-    display_name: "Ivan Logre"
-    bio: PhD, 2017. MSc, 2013. Now postdoc at Université Grenoble Alpes
-    role: alum
+  year: 2017
+  firstname: "Ivan"
+  lastname: "Logre"
+  bio: PhD, 2017. MSc, 2013. Now postdoc at Université Grenoble Alpes
+  role: alum
 
 cyril:
-    year: 2017
-    display_name: "Cyril Cecchinel"
-    bio: PhD, 2017. MSc, 2014. Now research engineer at DataThings
-    role: alum
+  year: 2017
+  firstname: "Cyril"
+  lastname: "Cecchinel"
+  bio: PhD, 2017. MSc, 2014. Now research engineer at DataThings
+  role: alum
 
 alex:
-    year: 2014
-    display_name: "Alexandre Feugas"
-    bio: PhD, 2014. Now senior R&D consultant at F. Incivitas
-    role: alum
+  year: 2014
+  lastname: "Feugas"
+  firstname: "Alexandre"
+  bio: PhD, 2014. Now senior R&D consultant at F. Incivitas
+  role: alum
 
 eirik:
     year: 2011
-    display_name: "Eirik Brandtzæg"
+    lastname: "Brandtzæg"
+    firstname: "Eirik"
     bio: MSc, 2011. Now software engineer.
     role: alum
 
 # Alumni Undergrad
 
+gael_m:
+  year: 2019
+  lastname: "Miton"
+  firstname: "Gaël"
+  role: ugrad-alum
+  bio: "Fall 2019, St Cyr. Now graduate student at St Cyr"
 
 guillaume_andre:
-    display_name: "Guillaume André"
-    role: ugrad-alum
-    bio: "Autumn 2018, UCA. Now Graduate student at UCA."
+  year: 2018
+  lastname: "André"
+  firstname: "Guillaume"
+  role: ugrad-alum
+  bio: "Autumn 2018, UCA. Now Graduate student at UCA."
 
 olivier_boulet :
-    display_name: "Olivier Boulet"
-    role: ugrad-alum
-    bio: "Summer 2018, UCA. Now Graduate student at UCA."
+  year: 2018
+  lastname: "Boulet"
+  firstname: "Olivier"
+  role: ugrad-alum
+  bio: "Summer 2018, UCA. Now Graduate student at UCA."
 
 florian_bourniquel:
-    display_name: "Florian Bourniquel"
-    role: ugrad-alum
-    bio: "2018, UCA. Now Graduate student at UCA."
-    image: /img/people/florian_b.jpg
+  year: 2018
+  lastname: "Bourniquel"
+  firstname: "Florian"
+  role: ugrad-alum
+  bio: "2018, UCA. Now Graduate student at UCA."
+  image: /img/people/florian_b.jpg
 
 alexis_couvreur:
-    display_name: "Alexis Couvreur"
-    role: ugrad-alum
-    bio: "Summer 2018, UCA. Now Graduate student at UCA."
+  year: 2018
+  firstname: "Alexis"
+  lastname: "Couvreur"
+  role: ugrad-alum
+  bio: "Summer 2018, UCA. Now Graduate student at UCA."
 
 enzo:
-    display_name: "Enzo Dalla-Nora"
-    role: ugrad-alum
-    bio: "Autumn 2018, UCA. Now Graduate student at UCA."
+  year: 2018
+  firstname: "Enzo"
+  lastname: "Dalla-Nora"
+  role: ugrad-alum
+  bio: "Autumn 2018, UCA. Now Graduate student at UCA."
 
 iokanaan_goutier:
-    display_name: "Iokannan Goutier"
-    bio: "Summer 2016. Now Independent Software Engineer."
-    role: ugrad-alum
+  year: 2016
+  lastname: "Goutier"
+  firstname: "Iokannan"
+  bio: "Summer 2016. Now Independent Software Engineer."
+  role: ugrad-alum
 
 dorian:
-    display_name: "Dorian Haouz-Gachet"
-    bio: Winter/Spring 2019, now grad student at exia.CESI
-    image: /img/people/dorian_hg.jpg
-    role: ugrad-alum
+  year: 2019
+  lastname: "Haouz-Gachet"
+  firstname: "Dorian"
+  bio: Winter/Spring 2019, now grad student at exia.CESI
+  image: /img/people/dorian_hg.jpg
+  role: ugrad-alum
 
 tanguy:
-    display_name: "Tanguy Invernizzi"
-    role: ugrad-alum
-    bio: "Autumn 2018, UCA. Now Graduate student at UCA."
+  year: 2018
+  lastname: "Invernizzi"
+  firstname: "Tanguy"
+  role: ugrad-alum
+  bio: "Autumn 2018, UCA. Now Graduate student at UCA."
 
 florian_j:
-    display_name: "Florian Juroszek"
-    role: ugrad-alum
-    bio: "Summer 2019, UCA. Now Graduate student at UCA."
+  year: 2019
+  lastname: "Juroszek"
+  firstname: "Florian"
+  role: ugrad-alum
+  bio: "Summer 2019, UCA. Now Graduate student at UCA."
 
 marc_jourdes:
-    display_name: "Marc Jourdes"
-    role: ugrad-alum
-    bio: "Autumn 2018, UCA. Now Graduate student at UCA."
+  year: 2018
+  lastname: "Jourdes"
+  firstname: "Marc"
+  role: ugrad-alum
+  bio: "Autumn 2018, UCA. Now Graduate student at UCA."
 
 nicolas_lecourtois:
-    display_name: "Nicolas Lecourtois"
-    bio: "Summer 2016. Now Software Engineer, Atos."
-    role: ugrad-alum
+  year: 2016
+  lastname: "Lecourtois"
+  firstname: "Nicolas"
+  bio: "Summer 2016. Now Software Engineer, Atos."
+  role: ugrad-alum
 
 florian_lehmann:
-    display_name: "Florian Lehmann"
-    bio: "2018, UCA. Now Graduate student at UCA."
-    role: ugrad-alum
+  year: 2018
+  firstname: "Florian"
+  lastname: "Lehmann"
+  bio: "2018, UCA. Now Graduate student at UCA."
+  role: ugrad-alum
 
 lucas_matteo:
-    display_name: "Lucas Mattéo"
-    role: ugrad-alum
-    bio: "Autumn 2018, UCA. Now Graduate student at UCA."
+  year: 2018
+  lastname: "Mattéo"
+  firstname: "Lucas"
+  role: ugrad-alum
+  bio: "Autumn 2018, UCA. Now Graduate student at UCA."
 
 seb_m:
-    display_name: "Sébastien Michelland"
-    role: ugrad-alum
-    bio: "Spring 2019, ENS Lyon. Now graduate student at ENS Lyon."
+  year: 2019
+  lastname: "Michelland"
+  firstname: "Sébastien"
+  role: ugrad-alum
+  bio: "Spring 2019, ENS Lyon. Now graduate student at ENS Lyon."
 
 paul:
-    display_name: "Paul Misericordia"
-    bio: Winter/Spring 2019, now grad student at exia.CESI
-    image: https://www.un-zero-un.fr/media/cache/big_team_member/uploads/team/2018/paul.jpg
-    role: ugrad-alum
+  year: 2019
+  firstname: "Misericordia"
+  lastname: "Paul"
+  bio: Winter/Spring 2019, now grad student at exia.CESI
+  image: https://www.un-zero-un.fr/media/cache/big_team_member/uploads/team/2018/paul.jpg
+  role: ugrad-alum
 
 johan_mortara:
-    display_name: "Johann Mortara"
-    role: ugrad-alum
-    bio: "Summer 2018, UCA. Now Graduate student at UCA."
+  year: 2018
+  lastname: "Mortara"
+  firstname: "Johann"
+  role: ugrad-alum
+  bio: "Summer 2018, UCA. Now Graduate student at UCA."
 
 jean_oudot:
-    display_name: "Jean Oudot"
-    bio: "Summer 2014. Now PhD Student at Telecom ParisTech."
-    role: ugrad-alum
+  year: 2014
+  lastname: "Oudot"
+  firstname: "Jean"
+  bio: "Summer 2014. Now PhD Student at Telecom ParisTech."
+  role: ugrad-alum
 
 mathieu:
-    display_name: "Mathieu Paillard"
-    role: ugrad-alum
-    bio: "Summer 2019, UCA. Now Graduate student at UCA."
+  year: 2019
+  lastname: "Paillard"
+  firstname: "Mathieu"
+  role: ugrad-alum
+  bio: "Summer 2019, UCA. Now Graduate student at UCA."
 
 prune:
-    display_name: "Prune Pillone"
-    role: ugrad-alum
-    bio: "Summer 2019, UCA. Now Graduate student at UCA."
+  year: 2019
+  lastname: "Pillone"
+  firstname: "Prune"
+  role: ugrad-alum
+  bio: "Summer 2019, UCA. Now Graduate student at UCA."
 
 jean_adam:
-    display_name: "Jean-Adam Puskaric"
-    role: ugrad-alum
-    bio: "Autumn 2018, UCA. Now Graduate student at UCA."
+  year: 2018
+  lastname: "Puskaric"
+  firstname: "Jean-Adam"
+  role: ugrad-alum
+  bio: "Autumn 2018, UCA. Now Graduate student at UCA."
 
 alexis_s:
-    display_name: "Alexis Segura"
-    role: ugrad-alum
-    bio: "Summer 2019, UCA. Now Graduate student at UCA."
+  year: 2019
+  lastname: "Segura"
+  firstname: "Alexis"
+  role: ugrad-alum
+  bio: "Summer 2019, UCA. Now Graduate student at UCA."
 
 david_sene:
-    display_name: " David Sene"
-    role: ugrad-alum
-    bio: "Autumn 2018, UCA. Now Graduate student at UCA."
+  year: 2018
+  lastname: "Sene"
+  firstname: "David"
+  role: ugrad-alum
+  bio: "Autumn 2018, UCA. Now Graduate student at UCA."
 
 fabien_vicente:
-    display_name: "Fabien Vicente"
-    bio: "Summer 2016. Now Software Engineer, Meritis."
-    role: ugrad-alum
+  year: 2016
+  lastname: "Vicente"
+  firstname: "Fabien"
+  bio: "Summer 2016. Now Software Engineer, Meritis."
+  role: ugrad-alum

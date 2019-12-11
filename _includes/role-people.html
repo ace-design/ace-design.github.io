@@ -1,16 +1,26 @@
 
 {% assign role-key = include.role %}
+{% assign tmp = "" | split: " " %}
+{% for p in site.data.people %}
+  {% assign tmp = tmp | push: p[1] %}
+{% endfor %}
 
 {% for role in site.roles %}
     {% if role.key == role-key %}
         <h3 class="pt-3"> {{ role.name }} </h3>
         <div class="role {{ role.key }}">
-            {% for item in site.data.people %}
-                {% assign person = item[1] %}
+            {% assign alpha = tmp | sort: "lastname"  %}
+            {% assign handled = "" | split: " " %}
+            {% for item in alpha %}
+                {% assign person = item %}
                 {% if person.role == role.key %}
+                    {% assign handled = handled | push: person %}
                     {% include person.html person=person image=include.image %}
                 {% endif %}
             {% endfor %}
+          {% if handled.size == 0 %}
+            <em>No one right now. Interested to <a href="{{ "/offers.html" | absolute_url }}">join us?</a></em>
+          {% endif%}
         </div>
     {% endif %}
 {% endfor %}
