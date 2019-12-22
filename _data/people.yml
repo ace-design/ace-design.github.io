@@ -26,6 +26,7 @@ sebseb:
   bio: PhD Student, UCA
   image: /img/people/sebseb.png
   role: grad
+  #cosup: M. Blay-Fornarino
 
 sami:
   firstname: "Sami"
@@ -33,6 +34,7 @@ sami:
   role: grad
   bio: PhD Student, UCA
   image: /img/people/sami.jpg
+  #cosup: P. Collet
 
 # MSc Students
 
@@ -59,6 +61,7 @@ loutheo:
   bio: MSc Student, Exia.CESI / UQAM
   image: /img/people/laurent.jpg
   role: grad
+  #cosup: Arthur Charpentier
 
 rayan:
   firstname: "Rayan"
@@ -66,6 +69,7 @@ rayan:
   image: /img/people/lakhdar.png
   bio: MSc Student, Exia.CESI / UQAM
   role: grad
+  cosup: Marie-Jean Meurs
 
 pierre:
   firstname: "Pierre"
@@ -73,12 +77,21 @@ pierre:
   bio: MSc Student, Exia.CESI / UQAM
   image: /img/people/froidevaux.jpeg
   role: grad
+  cosup: Jean Privat
 
 maxime:
   firstname: "Maxime"
   lastname: "Mulder"
   bio: MSc Student, Exia.CESI / UQAM
   role: grad
+
+jeremy:
+  firstname: "Jérémy"
+  lastname: "Fornarino"
+  bio: MSc Student, ESIEE
+  image: /img/people/fornarino.jpg
+  role: grad
+  cosup: Marie-Jean Meurs
 
 # Collaborators
 
