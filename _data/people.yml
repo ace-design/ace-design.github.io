@@ -83,6 +83,7 @@ maxime:
   firstname: "Maxime"
   lastname: "Mulder"
   bio: MSc Student, Exia.CESI / UQAM
+  image: /img/people/mulder.png
   role: grad
 
 jeremy:
@@ -180,6 +181,12 @@ houari:
 
 # Undergrad / Interns
 
+corinne:
+  year: 2020
+  lastname: "Pulgar"
+  firstname: "Corinne"
+  bio: B.Sc, UQAM
+  role: ugrad
 
 
 # Alumni Grad
