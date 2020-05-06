@@ -55,6 +55,13 @@ jp:
 
 ## Add Exia here
 
+florian:
+  firstname: "Florian"
+  lastname: "Vouters"
+  bio: MSc Student, Exia.CESI / UQAM
+  image: /img/people/vouters.png
+  role: grad
+
 loutheo:
   firstname: "Lou-Théo"
   lastname: "Laurent"
@@ -93,6 +100,14 @@ jeremy:
   image: /img/people/fornarino.jpg
   role: grad
   cosup: Marie-Jean Meurs
+
+avril:
+  firstname: "Avril"
+  lastname: "de Goër de Herve"
+  bio: École Normale Supérieure (ENS) de Lyon
+  role: grad
+  cosup: Marie-Jean Meurs
+
 
 # Collaborators
 
@@ -143,19 +158,6 @@ mjm:
   webpage: "https://www.labunix.uqam.ca/~meurs_m/"
   image: "https://photos-professeurs.uqam.ca/images/fiche_professeur/m2/gKZTgyCHAH4_.jpg"
 
-naouel:
-  lastname: "Moha"
-  firstname: "Naouel"
-  role: collab
-  image: /img/people/naouel.jpg
-  bio: Professor, UQAM
-
-eric:
-  lastname: "Beaudry"
-  firstname: "Eric"
-  role: collab
-  bio: Professor, UQAM
-
 matthieu:
   firstname: "Matthieu"
   lastname: "Moy"
@@ -171,6 +173,14 @@ gunther_mussbacher:
   webpage: "http://www.ece.mcgill.ca/~gmussb1/"
   bio: Ass. Professor, McGill University
 
+jean:
+  lastname: "Privat"
+  firstname: "Jean"
+  role: collab
+  webpage: "https://info.uqam.ca/~privat/"
+  bio: Professor, UQAM
+
+
 houari:
   lastname: "Sahraoui"
   firstname: "Houari"
@@ -181,12 +191,27 @@ houari:
 
 # Undergrad / Interns
 
-corinne:
+olivier:
   year: 2020
-  lastname: "Pulgar"
-  firstname: "Corinne"
-  bio: B.Sc, UQAM
+  lastname: "Levasseur"
+  firstname: "Olivier"
+  bio: B.Sc, UQAM (NSERC grant)
   role: ugrad
+
+
+# Cats
+
+jinx:
+  firstname: Jinx
+  image: /img/cats/jinx.png
+  role: cat
+  bio: European cat (COVID-19 funding)
+
+ravioli:
+  firstname: Ravioli
+  image: /img/cats/ravioli.png
+  role: cat
+  bio: European cat (COVID-19 funding)
 
 
 # Alumni Grad
@@ -228,6 +253,12 @@ eirik:
     role: alum
 
 # Alumni Undergrad
+corinne:
+  year: 2020
+  lastname: "Pulgar"
+  firstname: "Corinne"
+  bio: Winter 2020. B.Sc, UQAM. Now student at UQAM
+  role: ugrad-alum
 
 gael_m:
   year: 2019
