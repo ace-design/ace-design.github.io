@@ -199,6 +199,14 @@ olivier:
   role: ugrad
 
 
+alison:
+  year: 2020
+  lastname: "Lecuyer"
+  firstname: "Alison"
+  bio: B.Sc (IUT), Université Côte d'Azur
+  role: ugrad
+
+
 # Cats
 
 jinx:
