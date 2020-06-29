@@ -10,6 +10,14 @@ seb:
   webpage: "https://mosser.github.io"
   role: faculty
 
+jean:
+  lastname: "Privat"
+  firstname: "Jean"
+  role: faculty
+  webpage: "https://info.uqam.ca/~privat/"
+  image: /img/people/jean.jpg
+  bio: Professor, UQAM
+
 ben:
   lastname: "Benni"
   firstname: "Benjamin"
@@ -20,30 +28,9 @@ ben:
 
 # PhD Students
 
-sebseb:
-  lastname: "Bonnieux"
-  firstname: "Sébastien"
-  bio: PhD Student, UCA
-  image: /img/people/sebseb.png
-  role: grad
-  #cosup: M. Blay-Fornarino
 
-sami:
-  firstname: "Sami"
-  lastname: "Lazreg"
-  role: grad
-  bio: PhD Student, UCA
-  image: /img/people/sami.jpg
-  #cosup: P. Collet
 
 # MSc Students
-
-juliano:
-  firstname: "Juliano Augusto"
-  lastname: "Pereira"
-  bio: MSc.A. Student, UQAM
-  image: /img/people/juliano.jpg
-  role: grad
 
 jp:
   firstname: "Jean-Philippe"
@@ -53,7 +40,7 @@ jp:
   webpage: "https://www.linkedin.com/in/jpcaissy/"
   role: grad
 
-## Add Exia here
+## Add Interns here
 
 florian:
   firstname: "Florian"
@@ -62,52 +49,24 @@ florian:
   image: /img/people/vouters.png
   role: grad
 
-loutheo:
-  firstname: "Lou-Théo"
-  lastname: "Laurent"
-  bio: MSc Student, Exia.CESI / UQAM
-  image: /img/people/laurent.jpg
-  role: grad
-  #cosup: Arthur Charpentier
-
-rayan:
-  firstname: "Rayan"
-  lastname: "Lakhdar"
-  image: /img/people/lakhdar.png
-  bio: MSc Student, Exia.CESI / UQAM
-  role: grad
-  cosup: Marie-Jean Meurs
-
-pierre:
-  firstname: "Pierre"
-  lastname: "Froidevaux"
-  bio: MSc Student, Exia.CESI / UQAM
-  image: /img/people/froidevaux.jpeg
-  role: grad
-  cosup: Jean Privat
-
-maxime:
-  firstname: "Maxime"
-  lastname: "Mulder"
-  bio: MSc Student, Exia.CESI / UQAM
-  image: /img/people/mulder.png
-  role: grad
-
 jeremy:
   firstname: "Jérémy"
   lastname: "Fornarino"
   bio: MSc Student, ESIEE
   image: /img/people/fornarino.jpg
   role: grad
-  cosup: Marie-Jean Meurs
 
 avril:
   firstname: "Avril"
   lastname: "de Goër de Herve"
   bio: École Normale Supérieure (ENS) de Lyon
   role: grad
-  cosup: Marie-Jean Meurs
 
+yan:
+  firstname: "Yan"
+  lastname: "Conigliaro"
+  bio: M.Sc. student, Université Côte d'Azur
+  role: grad
 
 # Collaborators
 
@@ -173,13 +132,6 @@ gunther_mussbacher:
   webpage: "http://www.ece.mcgill.ca/~gmussb1/"
   bio: Ass. Professor, McGill University
 
-jean:
-  lastname: "Privat"
-  firstname: "Jean"
-  role: collab
-  webpage: "https://info.uqam.ca/~privat/"
-  bio: Professor, UQAM
-
 
 houari:
   lastname: "Sahraoui"
@@ -196,16 +148,7 @@ olivier:
   lastname: "Levasseur"
   firstname: "Olivier"
   bio: B.Sc, UQAM (NSERC grant)
-  role: ugrad
-
-
-alison:
-  year: 2020
-  lastname: "Lecuyer"
-  firstname: "Alison"
-  bio: B.Sc (IUT), Université Côte d'Azur
-  role: ugrad
-
+  role: grad
 
 # Cats
 
@@ -438,3 +381,64 @@ fabien_vicente:
   firstname: "Fabien"
   bio: "Summer 2016. Now Software Engineer, Meritis."
   role: ugrad-alum
+
+
+alison:
+  year: 2020
+  lastname: "Lecuyer"
+  firstname: "Alison"
+  bio: B.Sc (IUT), Université Côte d'Azur
+  role: ugrad-alum
+
+  juliano:
+    firstname: "Juliano Augusto"
+    lastname: "Pereira"
+    bio: MSc.A. Student, UQAM
+    image: /img/people/juliano.jpg
+    role: ugrad-alum
+
+loutheo:
+  firstname: "Lou-Théo"
+  lastname: "Laurent"
+  bio: MSc Student, Exia.CESI / UQAM
+  image: /img/people/laurent.jpg
+  role: ugrad-alum
+  #cosup: Arthur Charpentier
+
+rayan:
+  firstname: "Rayan"
+  lastname: "Lakhdar"
+  image: /img/people/lakhdar.png
+  bio: MSc Student, Exia.CESI / UQAM
+  role: ugrad-alum
+  cosup: Marie-Jean Meurs
+
+pierre:
+  firstname: "Pierre"
+  lastname: "Froidevaux"
+  bio: MSc Student, Exia.CESI / UQAM
+  image: /img/people/froidevaux.jpeg
+  role: ugrad-alum
+  cosup: Jean Privat
+
+maxime:
+  firstname: "Maxime"
+  lastname: "Mulder"
+  bio: MSc Student, Exia.CESI / UQAM
+  image: /img/people/mulder.png
+  role: ugrad-alum
+
+sebseb:
+  lastname: "Bonnieux"
+  firstname: "Sébastien"
+  bio: PhD Student, UCA
+  image: /img/people/sebseb.png
+  role: ugrad-alum
+
+sami:
+  firstname: "Sami"
+  lastname: "Lazreg"
+  role: ugrad-alum
+  bio: PhD Student, UCA
+  image: /img/people/sami.jpg
+  #cosup: P. Collet
