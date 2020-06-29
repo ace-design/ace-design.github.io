@@ -66,7 +66,20 @@ yan:
   firstname: "Yan"
   lastname: "Conigliaro"
   bio: M.Sc. student, Université Côte d'Azur
+  image: /img/people/yan.png
   role: grad
+
+# Undergrad / Interns
+
+olivier:
+  year: 2020
+  lastname: "Levasseur"
+  firstname: "Olivier"
+  bio: B.Sc, UQAM (NSERC grant)
+  role: grad
+
+
+
 
 # Collaborators
 
@@ -141,14 +154,7 @@ houari:
   webpage: "http://www.iro.umontreal.ca/~sahraouh/"
   image: "http://www.iro.umontreal.ca/~sahraouh/photo_diro.jpg"
 
-# Undergrad / Interns
 
-olivier:
-  year: 2020
-  lastname: "Levasseur"
-  firstname: "Olivier"
-  bio: B.Sc, UQAM (NSERC grant)
-  role: grad
 
 # Cats
 
